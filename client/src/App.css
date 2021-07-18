@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.registration {
+  height: 100vh;
+}
+
+.form {
+  border-radius: 7px;
+  box-shadow: 0px 0px 60px #ccc888;
+}
+
+.row {
+  padding: 30px;
+}
+
+.contact_info_item {
+  border-radius: 7px;
+
+}
+
+.contact_info_title {
+  font-weight: bold
+}
+
+.get_in_touch {
+  box-shadow: 0px 0px 30px #ccc888;
+  border-radius: 7px;
+  width: 80%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 35vh
+}
+
+body {
+  margin-bottom: 90px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1
+}
+
+.notfound .notfound-404 h1 {
+  font-family: "Maven Pro",sans-serif;
+  color:#ececec;
+  font-weight:900;
+  font-size: 276px;
+  margin: 0;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound h2{
+  font-family: "Maven Pro",sans-serif;
+  color:#000;
+  font-weight:900;
+  font-size: 46px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.notfound p{
+  font-family: "Maven Pro",sans-serif;
+  color:#000;
+  font-weight:400;
+  font-size: 16px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.notfound a{
+  font-family: "Maven Pro",sans-serif;
+  color:#000;
+  font-weight:400;
+  font-size: 14px;
+  text-decoration: none;
+  background: #189cf0;
+  display: inline-block;
+  padding:16px 38px;
+  border:2px solid transparent;
+  border-radius: 40px;
+  color:#fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width:480px){
+  .notfound .notfound-404 h1{
+    font-size:162px;
+  }
+  .notfound h2{
+    font-size:26px
+  }
+}
