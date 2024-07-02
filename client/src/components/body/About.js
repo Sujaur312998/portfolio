@@ -45,7 +45,7 @@ const About = () => {
                         <p className="lead text-justify">Hello I am Sujaur, currently studying at Bangladesh University of Professionals. I am an energetic, ambitiuos person aiming to leverage proven creative thinking and gain new skills daily. I believe I am an enthusiastic and focused individual. I have a clear, logical mind with a practical approach to problem-solving and a drive to see things through to completion. I am eager to be challenged in order to grow and further improve my IT skills.
                         </p>
                         <a
-                            href="https://drive.google.com/file/d/19o2qVVIw9FmEpLaj-c8LHlfa7GP_PJod/view?usp=sharing"
+                            href="https://flowcv.com/resume/ps03tht5s8"
                             className="btn btn-outline-primary btn-lg mt-4"
                         >
                             Download CV
